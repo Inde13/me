@@ -17,7 +17,7 @@ main {
     background-color: rgb(223, 193, 129);
     border: 2px solid black;
     border-radius: 5px;
-    width: 15vw;
+    width: 20vw;
     height: 10vh;
     cursor: pointer;
     display: flex;
