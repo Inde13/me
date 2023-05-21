@@ -4,15 +4,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Home</title>
+    <title>Eu sou...</title>
 </head>
 <body>
     <header>
-        <h1>Bem Vindo!</h1>
-        <h3>Eu sou Matheus!</h3>
+        <h1>Eu sou...</h1>
+        <h3>Aqui você insere seu "nome"</h3>
     </header>
     <main>
-        <a href="setname.html"><div class="btn" id="eu-sou">Eu sou...</div></a>
+        <div class="inp">
+            <input type="text" id="name-input">
+            <button onclick="setName(); checkName()">Confirmar</button>
+        </div>
+        <a href="index.html"><div class="btn">Voltar</div></a>
     </main>
 </body>
 <script src="specialusers.js"></script>
