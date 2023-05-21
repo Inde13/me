@@ -1,0 +1,1 @@
+document.getElementById("name-input").style.visibility = 'hidden'

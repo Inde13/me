@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(216, 213, 185);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.eu-sou {
+    background-color: rgb(223, 193, 129);
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 15vw;
+    height: 10vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.eu-sou:hover {
+    background-color: rgb(207, 181, 119);
+    transition-duration: 0.2s;
+}
+
+.eu-sou p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+}
